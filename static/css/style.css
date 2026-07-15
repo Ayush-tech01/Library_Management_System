@@ -1,0 +1,191 @@
+body {
+    background-color: #f0f2f5;
+}
+
+.card {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.badge {
+    font-size: 0.75em;
+    padding: 0.5em 0.75em;
+}
+
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+}
+
+.modal-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 12px 12px 0 0;
+}
+
+.modal-header .btn-close {
+    filter: invert(1);
+}
+
+/* Dashboard specific styles */
+.btn-outline-primary, .btn-outline-success, .btn-outline-warning, .btn-outline-info {
+    transition: all 0.3s;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 2px;
+    border-radius: 12px;
+}
+
+.btn-outline-primary:hover, .btn-outline-success:hover, 
+.btn-outline-warning:hover, .btn-outline-info:hover {
+    transform: scale(1.05);
+    color: white;
+}
+
+.btn-outline-primary:hover { background-color: #007bff; }
+.btn-outline-success:hover { background-color: #28a745; }
+.btn-outline-warning:hover { background-color: #ffc107; color: #212529; }
+.btn-outline-info:hover { background-color: #17a2b8; }
+
+/* Statistics cards */
+.bg-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important; }
+.bg-success { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%) !important; }
+.bg-warning { background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%) !important; }
+.bg-danger { background: linear-gradient(135deg, #ff416c 0%, #ff4b2b 100%) !important; }
+
+.stat-card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.stat-card .card-body {
+    padding: 1.5rem;
+}
+
+/* List group items */
+.list-group-item {
+    border-left: none;
+    border-right: none;
+    border-radius: 8px !important;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    transform: translateX(5px);
+}
+
+.list-group-item:first-child {
+    border-top: none;
+}
+
+/* Navbar styling */
+.navbar {
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255,255,255,0.9) !important;
+    margin: 0 0.5rem;
+    border-radius: 6px;
+    transition: all 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white !important;
+    background-color: rgba(255,255,255,0.1);
+    transform: translateY(-1px);
+}
+
+/* Table improvements */
+.table-responsive {
+    border-radius: 12px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,0.02);
+}
+
+/* Form controls */
+.form-control {
+    border-radius: 8px;
+    border: 1px solid #e1e5e9;
+    transition: all 0.3s;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+/* Alert improvements */
+.alert {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Quick action buttons positioning */
+.quick-actions .btn {
+    margin-bottom: 1rem;
+}
+
+/* Page headers */
+h2 {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+/* Badge improvements */
+.badge {
+    border-radius: 6px;
+}
+
+/* Modal improvements */
+.modal-content {
+    border-radius: 15px;
+    border: none;
+}
+
+/* Search box improvements */
+.input-group {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    border-radius: 8px;
+}
+
+.input-group .form-control {
+    border-radius: 8px 0 0 8px;
+}
+
+.input-group .btn {
+    border-radius: 0 8px 8px 0;
+}
